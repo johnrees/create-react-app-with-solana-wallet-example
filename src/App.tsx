@@ -12,7 +12,7 @@ const App: React.FC = () => {
     <>
       <header>
         {connected
-          ? `welcome to goo ${publicKey?.toBase58().substr(0, 5)}`
+          ? `howdy! ${publicKey?.toBase58().substr(0, 5)}`
           : "please connect"}
       </header>
       <TokenList />
