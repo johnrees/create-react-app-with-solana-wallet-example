@@ -24,7 +24,7 @@ const TokenList: React.FC = () => {
   const [tokenList, setTokenList] = useState<Record<string, any>>();
 
   const [tokenAccounts, setTokenAccounts] = useState<
-    Array<{ amount: string; uiAmount: string; mint: string }>
+    Array<{ uiAmount: string; mint: string }>
   >([]);
 
   const { publicKey } = useWallet();
@@ -48,11 +48,10 @@ const TokenList: React.FC = () => {
           setTokenAccounts(
             value
               .map(({ account }) => ({
-                amount: account.data.parsed.info.tokenAmount.amount,
                 uiAmount: account.data.parsed.info.tokenAmount.uiAmountString,
                 mint: account.data.parsed.info.mint,
               }))
-              .sort((a, b) => b.amount - a.amount)
+              .sort((a, b) => Number(b.uiAmount) - Number(a.uiAmount))
           );
         });
     } else {
