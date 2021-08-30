@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-top: 1px solid #eee;
+}
+
+td {
+  padding: 3px;
+}
