@@ -8,7 +8,7 @@
     "@solana/spl-token": "^0.1.8",
     "@solana/wallet-adapter-base": "^0.4.1",
     "@solana/wallet-adapter-material-ui": "^0.7.1",
-    "@solana/wallet-adapter-react": "^0.7.1",
+    "@solana/wallet-adapter-react": "^0.15.19",
     "@solana/wallet-adapter-wallets": "^0.6.1",
     "@solana/web3.js": "^1.24.1",
     "react": "^17.0.2",
