@@ -7,7 +7,7 @@
     "@material-ui/icons": "^4.11.2",
     "@solana/spl-token": "^0.1.8",
     "@solana/wallet-adapter-base": "^0.4.1",
-    "@solana/wallet-adapter-material-ui": "^0.7.1",
+    "@solana/wallet-adapter-material-ui": "^0.16.25",
     "@solana/wallet-adapter-react": "^0.7.1",
     "@solana/wallet-adapter-wallets": "^0.6.1",
     "@solana/web3.js": "^1.24.1",
